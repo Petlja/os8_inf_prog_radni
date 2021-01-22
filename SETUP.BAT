@@ -9,7 +9,7 @@ if exist .env (
 setlocal EnableDelayedExpansion
 set MSG1=0
 set MSG2=0
-set PY_VERS=3.6,3.7,3.8
+set PY_VERS=3.6,3.7,3.8,3.9
 set PY_TEST_VER_LN="import sys; ('%%s.%%s' %% sys.version_info[0:2] in '%PY_VERS%'.split(',')) or quit(100)" 
 
 rem prvo pokusavamo python.exe iz PATH-a
