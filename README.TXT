@@ -9,6 +9,8 @@ i pokriva centralnu temu tog kursa:
 
 - "Analiza i prezentacija podataka u Džupiteru za osmi razred"
 
+Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/479/
+a repozitorijum kursa je: https://github.com/Petlja/os8_inf_prog
 
 Podešavanje
 ===========
