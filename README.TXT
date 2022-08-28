@@ -4,10 +4,10 @@ Pozdravljamo tvoju odluku da preuzmeš datoteke za vežbu na svoj računar
 i da na taj način uvežbaš veštine za koje smatramo da su važne za svakog
 mladog čoveka koji će živeti i raditi u 21. veku!
 
-Ovaj folder sadrži datoteke za vežbu za kurs https://petlja.org/kurs/479/
-i pokriva centralnu temu tog kursa:
+Ovaj folder sadrži datoteke za vežbu za kurs Analiza podataka u Džupiteru i 
+tehnike programiranja za osmi razred:
 
-- "Analiza i prezentacija podataka u Džupiteru za osmi razred"
+- "Rad sa podacima u tekstualnom programskom jeziku" (Džupiter+Pajton)
 
 Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/479/
 a repozitorijum kursa je: https://github.com/Petlja/os8_inf_prog
@@ -16,7 +16,7 @@ Podešavanje
 ===========
 
 Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
-instaliran Python u verziji 3.6 do 3.9 (standarnda instalacija sa
+instaliran Python u verziji 3.6 do 3.10 (standarnda instalacija sa
 sajta https://www.python.org/). Za sve ostalo
 (Džupiter i druge neophodne biblioteke) ćemo se pobrinuti mi.
 
@@ -28,34 +28,32 @@ Njoj će trebati neko vreme da sa interneta prikupi relevantne biblioteke
 i onda će napraviti:
 
 - podfolder .env u kome se nalaze sve neophodne biblioteke (nema potrebe
-  da tamo zaviruješ, ali ako i odlučiš da virneš nemoj ništa brisati!),  i
-- datoteku START_JUPYTER.BAT kojom pokrećeš Džupiter.
+  da tamo zaviruješ, ali ako i odlučiš da virneš nemoj ništa brisati!), 
+- datoteku START_JUPYTER.BAT kojom pokrećeš Džupiter, i
+- prečicu START_IDLE kojom pokrećeš Pajtonovo radno okruženje IDLE.
 
 Sadržaj foldera
 ===============
 
-Sledeće datoteke sadrže zadatke za vežbe:
+Sledeće datoteke sadrže lekcije koje su ti potrebne:
 
-- J01.ipynb
-- J02.ipynb
-- J03.ipynb
-- J04.ipynb
-- J05.ipynb
-- J06.ipynb
-- J07.ipynb
-- J08.ipynb
-- J09.ipynb
-- J10.ipynb
+- 01_Uvod_u_Jupyter_ipynb
+- 02_Elementi_programiranja.ipynb
+- 03_Rad_sa_nizovima_podataka.ipynb
+- 04_Graficko_predstavljanje_podataka.ipynb
+- 05_Rad_sa_tabelama_pomocu_pandas_biblioteke.ipynb
+- 06_Osnove_obrade_i_prikaza_tabelarnih_podataka.ipynb
 
 Folderi
 
-- podaci, i
+- data, i
 - slike
 
-sadrže pomoćne fajlove. (Nema potrebe da tamo zalaziš, ali neće biti
-nikakve štete i ako malo virneš i baciš pogled na podršku za naše kurseve.)
+sadrže pomoćne fajlove za temu "Rad sa podacima u tekstualnom 
+programskom jeziku". (Nema potrebe da tamo zalaziš, ali neće biti nikakve štete i ako malo virneš i
+baciš pogled na podršku za naše kurseve.)
 
-Precizne instrukcije kako da pokreneš Džupiter, kako da pristupiš
+Precizne instrukcije kako da pokreneš Džupiter, odnosno, IDLE, kako da pristupiš
 zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar kursa
 
   https://petlja.org/kurs/479/
