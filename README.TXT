@@ -14,7 +14,7 @@ a repozitorijum kursa je: https://github.com/Petlja/os8_inf_prog
 
 Ako si nestrpljiv da pogledaš primere za vežbu, otvori link:
 
-https://petlja.github.io/os8_inf_prog
+https://petlja.github.io/os8_inf_prog_radni
 
 To je JupyterLite okruženje koje se izvršava lokalno u web brauzeru pa će
 sve promene koje uneseš biti zaboravljene čim zatvoriš brauzer ili ako samo
@@ -32,7 +32,7 @@ onda znači da su datoteke već preute i da možeš da pređeš na dalje podeša
 Ukoliko ovaj README.TXT čitaš na GitHub sajtu, onda datoteke možeš 
 da preuzmeš sa linka:
 
-https://github.com/Petlja/os8_inf_prog/archive/refs/heads/master.zip
+https://github.com/Petlja/os8_inf_prog_radni/archive/refs/heads/master.zip
 
 Ako znaš da  koristiš Git, možeš i pomoću Git-a da preneseš fajlove na 
 svoj računar.
