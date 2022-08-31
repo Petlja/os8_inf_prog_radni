@@ -1,0 +1,61 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-08-31T09:47:18.608949Z",
+      "format": null,
+      "last_modified": "2022-08-31T09:45:48.508949Z",
+      "mimetype": "text/x-python",
+      "name": "Min_niza.py",
+      "path": "P01/Min_niza.py",
+      "size": 160,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-31T09:47:18.608949Z",
+      "format": null,
+      "last_modified": "2022-08-31T09:45:48.508949Z",
+      "mimetype": "text/x-python",
+      "name": "Naj_predmeti.py",
+      "path": "P01/Naj_predmeti.py",
+      "size": 779,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-31T09:47:18.608949Z",
+      "format": null,
+      "last_modified": "2022-08-31T09:45:48.508949Z",
+      "mimetype": "text/x-python",
+      "name": "Dejanove_ocene.py",
+      "path": "P01/Dejanove_ocene.py",
+      "size": 189,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-31T09:47:18.608949Z",
+      "format": null,
+      "last_modified": "2022-08-31T09:45:48.508949Z",
+      "mimetype": "text/x-python",
+      "name": "Ocene_izvestaj.py",
+      "path": "P01/Ocene_izvestaj.py",
+      "size": 655,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-08-31T09:47:18.608949Z",
+  "format": "json",
+  "last_modified": "2022-08-31T09:47:18.608949Z",
+  "mimetype": null,
+  "name": "P01",
+  "path": "P01",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
