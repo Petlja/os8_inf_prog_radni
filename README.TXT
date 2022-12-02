@@ -62,7 +62,7 @@ Sadržaj foldera
 
 Sledeće datoteke sadrže lekcije koje su ti potrebne:
 
-- 01_Uvod_u_Jupyter_ipynb
+- 01_Uvod.ipynb
 - 02_Elementi_programiranja.ipynb
 - 03_Rad_sa_nizovima_podataka.ipynb
 - 04_Graficko_predstavljanje_podataka.ipynb
