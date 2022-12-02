@@ -12,6 +12,31 @@ tehnike programiranja za osmi razred:
 Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/479/
 a repozitorijum kursa je: https://github.com/Petlja/os8_inf_prog
 
+Ako si nestrpljiv da pogledaš primere za vežbu, otvori link:
+
+https://petlja.github.io/os8_inf_prog_radni
+
+To je JupyterLite okruženje koje se izvršava lokalno u web brauzeru pa će
+sve promene koje uneseš biti zaboravljene čim zatvoriš brauzer ili ako samo
+ponovo učitaš web stranu.
+
+Preporučujemo ti da podesiš okruženje Jupyter na svom računaru, što 
+u nastavku objašnjavamo kako se radi.
+
+Preuzimanje datoteka na lokalni računar
+=======================================
+
+Ukoliko ovaj README.TXT fajl čitaš iz lokalnog foldera na tvom računaru 
+onda znači da su datoteke već preute i da možeš da pređeš na dalje podešavanje.
+
+Ukoliko ovaj README.TXT čitaš na GitHub sajtu, onda datoteke možeš 
+da preuzmeš sa linka:
+
+https://github.com/Petlja/os8_inf_prog_radni/archive/refs/heads/master.zip
+
+Ako znaš da  koristiš Git, možeš i pomoću Git-a da preneseš fajlove na 
+svoj računar.
+
 Podešavanje
 ===========
 
