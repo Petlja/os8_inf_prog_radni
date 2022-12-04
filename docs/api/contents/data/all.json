@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-08-31T09:47:18.618949Z",
+      "created": "2022-12-04T21:49:28.837253Z",
       "format": null,
-      "last_modified": "2022-08-31T09:45:48.528949Z",
+      "last_modified": "2022-12-04T21:49:22.847253Z",
       "mimetype": "text/csv",
       "name": "preostala-mesta-skole.csv",
       "path": "data/preostala-mesta-skole.csv",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-08-31T09:47:18.618949Z",
+      "created": "2022-12-04T21:49:28.837253Z",
       "format": null,
-      "last_modified": "2022-08-31T09:45:48.518949Z",
+      "last_modified": "2022-12-04T21:49:22.847253Z",
       "mimetype": "text/csv",
       "name": "Preostala-mesta-profili.csv",
       "path": "data/Preostala-mesta-profili.csv",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-08-31T09:47:18.618949Z",
+  "created": "2022-12-04T21:49:28.837253Z",
   "format": "json",
-  "last_modified": "2022-08-31T09:47:18.618949Z",
+  "last_modified": "2022-12-04T21:49:28.837253Z",
   "mimetype": null,
   "name": "data",
   "path": "data",

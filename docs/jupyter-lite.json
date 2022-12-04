@@ -3,7 +3,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.12",
+    "appVersion": "0.1.0-beta.15",
     "baseUrl": "./",
     "contentsStorageDrivers": [
       "memoryStorageDriver"
@@ -25,7 +25,7 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.4e0d0eaeadb55f2647bb.js",
+        "load": "static/remoteEntry.9d2cafe85e6c9fa06c3a.js",
         "name": "@jupyterlite/xeus-python-kernel",
         "style": "./style"
       }

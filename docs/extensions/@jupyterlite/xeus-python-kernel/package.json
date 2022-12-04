@@ -1,6 +1,6 @@
 {
   "name": "@jupyterlite/xeus-python-kernel",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "A Python kernel for JupyterLite, powered by Xeus",
   "keywords": [
     "jupyter",
@@ -97,7 +97,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.4e0d0eaeadb55f2647bb.js",
+      "load": "static/remoteEntry.9d2cafe85e6c9fa06c3a.js",
       "extension": "./extension",
       "style": "./style"
     }
