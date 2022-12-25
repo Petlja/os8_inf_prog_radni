@@ -1,6 +1,6 @@
 {
   "name": "@jupyterlite/xeus-python-kernel",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "A Python kernel for JupyterLite, powered by Xeus",
   "keywords": [
     "jupyter",
@@ -29,19 +29,16 @@
     "url": "https://github.com/jupyterlite/xeus-python-kernel.git"
   },
   "scripts": {
-    "build:dockerimage": "docker build -t jupyterlite-xeus-kernel . ",
-    "build:dockerimage_no_cache": "docker build -t jupyterlite-xeus-kernel --no-cache . ",
-    "build:emscripten": "echo $(pwd) && docker run --rm -v $(pwd):/src -u $(id -u):$(id -g) jupyterlite-xeus-kernel copy_output.sh",
     "copy-files": "copyfiles -u 1 src/xpython_wasm.wasm src/xpython_wasm.js src/python_data.js src/python_data.data lib",
-    "build:wasm": "jlpm run build:dockerimage && jlpm run build:emscripten",
-    "build:wasm_no_cache": "jlpm run build:dockerimage_no_cache && jlpm run build:emscripten",
     "build:worker": "webpack --config worker.webpack.config.js --mode=development",
+    "build": "jlpm run build:dockerimage && jlpm run build:lib && jlpm run build:worker && jlpm run copy-files && jlpm run build:labextension:dev",
+    "build:dockerimage": "node build_xeus_python.js",
     "build:worker:prod": "webpack --config worker.webpack.config.js --mode=production",
-    "build": "jlpm run build:lib && jlpm run build:worker && jlpm run copy-files && jlpm run build:labextension:dev",
-    "build:prod": "jlpm run clean && jlpm run build:wasm && jlpm run build:lib && jlpm run build:worker:prod && jlpm run copy-files && jlpm run build:labextension",
+    "build:prod": "jlpm run clean && jlpm run build build:dockerimage && jlpm run build:lib && jlpm run build:worker:prod && jlpm run copy-files && jlpm run build:labextension",
     "build:labextension": "jupyter labextension build .",
     "build:labextension:dev": "jupyter labextension build --development True .",
-    "build:lib": "tsc",
+    "build:lib": "jlpm run sed-worker && tsc",
+    "sed-worker": "shx sed -i \"s/XEUS_KERNEL_FILE/'.\\/xpython_wasm.js'/\" src/worker.ts && shx sed -i \"s/LANGUAGE_DATA_FILE/'.\\/python_data.js'/\" src/worker.ts ",
     "clean": "jlpm run clean:lib",
     "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
     "clean:labextension": "rimraf jupyterlite_xeus_python/labextension",
@@ -58,8 +55,8 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlite/contents": "^0.1.0-beta.12",
-    "@jupyterlite/server": "^0.1.0-beta.12",
+    "@jupyterlite/contents": "^0.1.0-beta.16",
+    "@jupyterlite/server": "^0.1.0-beta.16",
     "comlink": "^4.3.1"
   },
   "devDependencies": {
@@ -76,7 +73,8 @@
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "source-map-loader": "^4.0.0",
-    "typescript": "~4.2.3"
+    "typescript": "~4.2.3",
+    "shx": "^0.3.0"
   },
   "sideEffects": [
     "style/*.css",
@@ -97,7 +95,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.9d2cafe85e6c9fa06c3a.js",
+      "load": "static/remoteEntry.3e6ed309551cb32eaad0.js",
       "extension": "./extension",
       "style": "./style"
     }

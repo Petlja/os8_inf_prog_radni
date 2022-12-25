@@ -3,7 +3,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.15",
+    "appVersion": "0.1.0-beta.16",
     "baseUrl": "./",
     "contentsStorageDrivers": [
       "memoryStorageDriver"
@@ -18,15 +18,16 @@
     "federated_extensions": [
       {
         "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.ca1efc27dc965162ca86.js",
-        "name": "@jupyter-widgets/jupyterlab-manager"
+        "liteExtension": true,
+        "load": "static/remoteEntry.3e6ed309551cb32eaad0.js",
+        "name": "@jupyterlite/xeus-python-kernel",
+        "style": "./style"
       },
       {
         "extension": "./extension",
-        "liteExtension": true,
-        "load": "static/remoteEntry.9d2cafe85e6c9fa06c3a.js",
-        "name": "@jupyterlite/xeus-python-kernel",
+        "liteExtension": false,
+        "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
+        "name": "jupyterlab_pygments",
         "style": "./style"
       }
     ],
